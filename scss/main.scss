@@ -44,3 +44,25 @@ body {
 .card-content {
   color: $primary-color;
 }
+
+.page-footer {
+  background-color: $secondary-color;
+
+  .footer-copyright {
+    background-color: $secondary-color-light;
+  }
+}
+
+.modal {
+  color: #333;
+  /* Hide scrollbars and adjust modal size */
+  max-height: 100%;
+  overflow: hidden;
+}
+
+// Make these invisible until jQuery makes them visible,
+// once the visitor scrolls down
+.row-2,
+.row-3 {
+  opacity: 0;
+}
