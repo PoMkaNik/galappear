@@ -1,3 +1,4 @@
+@import './vendor/materialize/components/color-variables';
 @import 'variables';
 @import './vendor/materialize/materialize.scss';
 
@@ -5,6 +6,10 @@
 
 $header-bg: url(../img/pattern.png);
 $header-height: 300px;
+
+body {
+  background: $primary-color;
+}
 
 .main-header {
   background: $header-bg;
